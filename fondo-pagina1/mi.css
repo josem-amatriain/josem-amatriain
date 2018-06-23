@@ -1,0 +1,19 @@
+body {
+   background: url(bodyBg.png) repeat #000 fixed;
+   font-family: 'Share-RegularRegular', sans-serif;
+   text-shadow: 2px 2px 1px #FFF;
+   font-weight: 100;
+   }
+
+#seccion1 {
+    width: 980px;
+    margin: 0 auto;
+    padding: 100 0 0 0;
+    }
+
+
+
+h1{
+    color: rgb(128,128,128);
+    }
+
