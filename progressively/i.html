@@ -16,10 +16,6 @@
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700" rel="stylesheet">
     <link rel="stylesheet" href="progressively.min.css">
     <link rel="stylesheet" href="mi.css">
-
-    <style type="text/css">
-    @import url(http://fonts.googleapis.com/css?family=Cabin+Condensed:500&text=Fork%20me%20on%20GitHub);
-    </style>
 </head>
 
 <body>
@@ -30,9 +26,10 @@
         </div>
         <div class="heading__info">
             <div class="heading__info--wrapper">
-                <p>Progressively is a javascript library for loading images progressively. It’s written entirely in JavaScript so it doesn’t depend on 3rd-party libraries like jQuery. It's super small,
-                    < 1.2kB when minified & gzipped! It will load images on when user browse to the page, saving bandwidth & server requests. 
-                </p>
+                <p>Progressively is a javascript library</p>
+                <img class="progressive__img progressive--not-loaded" 
+                     data-progressive="https://cdn-images-1.medium.com/max/800/1*wKAhKZPXmcSwnq2AcLN-9Q.jpeg" 
+                     src="https://cdn-images-1.medium.com/freeze/max/30/1*wKAhKZPXmcSwnq2AcLN-9Q.jpeg?q=10">
             </div>
         </div>
     </header>
@@ -40,7 +37,7 @@
 
     <div class="img-wrapper">
         <figure class="progressive">
-            <img class="progressive__img progressive--not-loaded" data-progressive="https://cdn-images-1.medium.com/max/800/1*wKAhKZPXmcSwnq2AcLN-9Q.jpeg" src="https://cdn-images-1.medium.com/freeze/max/30/1*wKAhKZPXmcSwnq2AcLN-9Q.jpeg?q=20">
+            
         </figure>
         <figure class="progressive">
             <img class="progressive__img progressive--not-loaded" data-progressive="https://cdn-images-1.medium.com/max/1200/1*Ah5h2jCdtSGkLsEXp8IBnw.jpeg" src="https://cdn-images-1.medium.com/freeze/max/30/1*Ah5h2jCdtSGkLsEXp8IBnw.jpeg?q=20">
