@@ -1,0 +1,184 @@
+
+    body {
+        margin: 0;
+        background: #9692FF;
+        overflow-x: hidden;
+        font-family: 'Open Sans', sans-serif;
+    }
+    
+    figure {
+        height: 200px;
+        max-width: 600px;
+        margin: 3% auto;
+    }
+    
+    .img-wrapper {
+        width: 300px;
+        height: auto;
+        margin: 4px auto;
+        margin-bottom: 12px;
+        position: relative;
+        background-color: #9996ff;
+        margin-left: calc(50% - 150px);
+        box-shadow: 0 19px 38px rgba(0, 0, 0, 0.30), 0 15px 12px rgba(0, 0, 0, 0.22);
+    }
+    
+    .heading {
+        width: 100vw;
+        height: auto;
+        padding: 1%;
+        margin: -2px auto;
+        position: relative;
+    }
+    
+    .heading__title {
+        color: #FFFFFF;
+        text-align: center;
+    }
+    
+    .heading__title h1 {
+        color: #FFEFB9;
+    }
+    
+    .heading__info {
+        display: none;
+    }
+    
+    .heading__info--wrapper {
+        padding: 2%;
+        background-color: #b4b2f7;
+    }
+    
+    .foot {
+        left: 0;
+        right: 0;
+        bottom: 0;
+        padding: 15%;
+        position: relative;
+        text-align: center;
+    }
+    
+    .foot__button {
+        color: #fff;
+        font-size: 1.45em;
+        padding: 20px 60px;
+        background: #FF9800;
+        border-radius: 100px;
+        text-decoration: none;
+    }
+    
+    .header__info__button {
+        display: none;
+    }
+    
+    @media(min-width: 768px) {
+        body {
+            margin: 2%;
+        }
+        figure {
+            height: 350px;
+            margin: 3% auto;
+        }
+        .img-wrapper {
+            width: 40vw;
+            position: absolute;
+            margin: -30px auto;
+        }
+        .heading {
+            right: 0;
+            width: 60vw;
+            position: absolute;
+        }
+        .heading__info {
+            color: #263238;
+            display: inherit;
+            padding-top: 1%;
+            padding-left: 14%;
+            padding-right: 4%;
+        }
+        .foot {
+            display: none;
+        }
+        .header__info__button {
+            color: #fff;
+            width: 100px;
+            margin: 5% 35%;
+            display: inherit;
+            overflow: hidden;
+            font-size: 1.45em;
+            padding: 20px 60px;
+            background: #FF9800;
+            border-radius: 100px;
+            text-decoration: none;
+        }
+    }
+    
+    pre {
+        font-family: "Courier 10 Pitch", Courier, monospace;
+        font-size: 95%;
+        line-height: 140%;
+        white-space: pre;
+        white-space: pre-wrap;
+        white-space: -moz-pre-wrap;
+        white-space: -o-pre-wrap;
+    }
+    
+    code {
+        font-family: Monaco, Consolas, "Andale Mono", "DejaVu Sans Mono", monospace;
+        font-size: 95%;
+        line-height: 140%;
+        white-space: pre;
+        white-space: pre-wrap;
+        white-space: -moz-pre-wrap;
+        white-space: -o-pre-wrap;
+    }
+    
+    body {
+        overflow-x: hidden;
+    }
+    
+    .ribbon {
+        z-index: 1;
+        position: absolute;
+        top: 42px;
+        width: 200px;
+        padding: 1px 0;
+        background: #000;
+        color: #eee;
+        -moz-box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+        -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    }
+    
+    .ribbon.right {
+        right: -42px;
+        -moz-transform: rotate(45deg);
+        -webkit-transform: rotate(45deg);
+        -o-transform: rotate(45deg);
+        -ms-transform: rotate(45deg);
+        transform: rotate(45deg);
+    }
+
+    .ribbon a,
+    .ribbon a:visited,
+    .ribbon a:active,
+    .ribbon a:hover {
+        display: block;
+        padding: 1px 0;
+        height: 24px;
+        line-height: 24px;
+        color: inherit;
+        text-align: center;
+        text-decoration: none;
+        font-family: 'Cabin Condensed', sans-serif;
+        font-size: 16px;
+        font-weight: 500;
+        border: 1px solid rgba(255, 255, 255, 0.3);
+        -moz-text-shadow: 0 0 10px rgba(0, 0, 0, 0.31);
+        -webkit-text-shadow: 0 0 10px rgba(0, 0, 0, 0.31);
+        text-shadow: 0 0 10px rgba(0, 0, 0, 0.31);
+    }
+    
+    .ribbon.black {
+        background: #000;
+    }
