@@ -23,9 +23,6 @@
 </head>
 
 <body>
-    <div class="ribbon right black" >
-        <a href="https://github.com/thinker3197/progressively">Fork me on GitHub</a>
-    </div>
     <header class="heading">
         <div class="heading__title">
             <h1>Progressively</h1>
@@ -36,45 +33,7 @@
                 <p>Progressively is a javascript library for loading images progressively. It’s written entirely in JavaScript so it doesn’t depend on 3rd-party libraries like jQuery. It's super small,
                     < 1.2kB when minified & gzipped! It will load images on when user browse to the page, saving bandwidth & server requests. 
                 </p>
-                <h2>Usage & Api</h2>
-                <ul>
-                    <li>
-                        <h3>Installation</h3>
-                        <code>bower install progressively</code>
-                        <br>
-                        <p>OR</p>
-                        <code>npm install progressively</code>
-                    </li>
-                    <li>
-                        <h3>Add Files</h3>
-                        <code>&lt;link rel="stylesheet" src="progressively.min.css"></code>
-                        <br>
-                        <br>
-                        <code>&lt;script type="text/javascript" src="progressively.min.js"></code>
-                    </li>
-                    <li>
-                        <h3>Initialize</h3>
-                        <code>progressively.init(options);</code>
-                    </li>
-                    <li>
-                        <h3>.init() (options)</h3>
-                        <p>The init() API takes a few options</p>
-                        <h4>throttle</h4>
-                        <p>Type: <code>Number</code>, Default: <code>300</code></p>
-                        <p>The throttle is managed by an internal function that prevents performance issues from continuous firing of window.onscroll events. Using a throttle will set a small timeout when the user scrolls and will keep throttling until the user stops. The default is 300 milliseconds.</p>
-                        <h4>delay</h4>
-                        <p>Type: <code>Number</code>, Default: <code>100</code></p>
-                        <p>The delay function sets the timout value for images to start load asynchronously. Ideally it's value should be low.</p>
-                        <h4>onLoad</h4>
-                        <p>Type: <code>Function</code>, Arguments: <code>HTMLElement</code></p>
-                        <p>The imgload function is invoked whenever an image elements finishes loading. It accepts HTMLElement as an argument which is the current element that is loaded.</p>
-                        <h4>onLoadComplete</h4>
-                        <p>Type: <code>Function</code>, Arguments: None</p>
-                        <p>The afterload function is callback function which executes when all images have loaded. It is fired when all the image elements have the <code>*--is-loaded</code> class.</p>
-                    </li>
-                </ul>
             </div>
-            <a href="https://github.com/thinker3197/progressively" class="header__info__button">Download</a>
         </div>
     </header>
 
@@ -100,9 +59,6 @@
         </figure>
     </div>
 
-    <footer class="foot">
-        <a href="https://github.com/thinker3197/progressively" class="foot__button">Download</a>
-    </footer>
     <script src="progressively.min.js"></script>
     <script>
     progressively.init({
@@ -111,6 +67,7 @@
         }
     });
     </script>
-</body>
+
+    </body>
 
 </html>
